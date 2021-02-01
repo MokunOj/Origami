@@ -1,0 +1,37 @@
+.item {
+    position:relative;
+}
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{
+opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+
+p{
+    color:#000000
+}
+.header{
+    background-color:#04ff19;
+
+    justify-content: space-around;
+}
+*{
+    border:solid;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+body{
+    background-color: #ffffff;
+}
+
